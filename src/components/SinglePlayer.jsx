@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 import {useParams} from "react-router-dom"
 import {fetchSinglePlayer} from "../api"
-import PlayerCard from "./PlayerCard"
+import PlayerCard from "./playerCard"
 
 export default function SinglePlayer() {
 const {id} = useParams();

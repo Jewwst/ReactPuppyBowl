@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { fetchAllPlayers } from "../api"
-import PlayerListName from "./PlayerListName"
+import PlayerListName from "./PlayerList"
 import CreatePlayerForm from "./CreatePlayerForm"
 
 export default function AllPlayers() {
